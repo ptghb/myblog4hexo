@@ -4,7 +4,7 @@ function initSearch() {
         searchContainer = $('#search-container'),
         searchResult = $('#search-result'),
         searchTpl = $('#search-tpl').html(),
-        JSON_DATA = '/content.json?v=' + (+ new Date()),
+        JSON_DATA = '/myblog4hexo/content.json?v=' + (+ new Date()),
         searchData;
 
     function loadData(success) {
